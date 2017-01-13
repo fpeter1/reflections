@@ -1,0 +1,12 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A hidden folder is created. I assume there is a file that
+keeps track of everything that happens in the folder.
+git init is like hiring a git manager. first thing he does is telling
+you what files you actually have.
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It seems to be something inbetween. It is different from the working directory as only a subset of all the files are part of it.
+I can collect data in  the staging area and commit it when everything is set up properly.
