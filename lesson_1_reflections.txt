@@ -1,0 +1,40 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Without diff I would have searched through the whole file. With diff I was shown only the relevant lines.
+I assume diff shows me lines that actually changed plus context.
+So the new search-space was only a fraction of the original one. That minimized the effort I had to put into the task.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I give a first answer with an analogy to writing. With version history I can reflect the process of writing,
+seeing how a piece of work emerged.
+In coding: I guess I would find mistakes way easier, as I can test the code version by version.
+ Plus, if I know, where my mistakes have been made, I can take the clean old parts and the clean new parts and make
+ them to a new file.
+If I ever delete parts, that were actually good and working, I can get them back with version history.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+This allows the user to chose to portion each commit, so that at the end you have one commit for a logical step.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because with Git users work on files that interdepend, while with Google Docs
+users work on files that don't. I mean they highly interdepend when they form a project that one wants to compile.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+git log is the book with all the changes that have been made in it. git diff lets me compare two changes minutely.
+I wonder how much more complex real world examples are.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+There is no reason to be afraid that a change breaks anything, as long as you make smart use of commit.
+In case you inject a bug into your program, just run through the log, find the bug and squash it.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+Puh, I guess I am too tired to think of something cool. But I need to work on JR's super-boring S&S-Project.
+And everybody in here is familiar with git. I guess forking a new branch from that tree, working on it,
+ - I need to make a Java Tutorial first - and pulling it back in, should give me enough working experience with
+ git to say, that I am familiar with the software.
