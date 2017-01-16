@@ -10,3 +10,30 @@ Q: How is the staging area different from the working directory and the reposito
 
 It seems to be something inbetween. It is different from the working directory as only a subset of all the files are part of it.
 I can collect data in  the staging area and commit it when everything is set up properly.
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+I can change files, add them to the staging area. Before I commit
+I compare the changes in the staging area to the last commit.
+
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+More people might want to work on the same project. Their work can be organized using branches.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+
+They just do! To answer the question I would have to imagine understand git
+without thinking of it that way. That's pretty hard. We call it a branch structure for a reason.
+
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The files get matched. The first commit after the merge has two ancestors now.
+
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It saves time and avoids errors!
