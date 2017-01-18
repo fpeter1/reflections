@@ -29,3 +29,9 @@ X -> Y -> Z (master)
 fetch.
 This way fetch knows where to hook in new changes, that have been made by other collaborators or from other machines,
 and, in case of conflicts, leave my current files alone. I can solve conflicts now, but I don't have to.
+
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I'd search for something similar. If I don't find that, we'd send us the updated files and document the changes made.
+We definitely would need a server space, so that every one of us would be sure to always look at the current version of the project.
