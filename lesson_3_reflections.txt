@@ -4,7 +4,19 @@ I would want to use a remote repository if I work collaboratively with other peo
 But even for my own project this would make sense, as I currently work on two computers, desktop-PC
 and laptop. With GitHub I could start using the PCs in the office.
 
+
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 I want full control over the state of the program I am working on. If Git automatically pulls changes, it might happen, that
 the files on my computer change, though I don't want that.
+
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones give me an identical copy of a remote or a repository and place it on my computer. Forks create my own copy
+on my GitHub section and reference to the origin. While forks and clones are whole projects, branches are just parts
+of projects. They are commits with the commit's history plus a new branch from that on.
+I would want to fork a project, if I want that project to the starting-point for something new. All the future changes shall
+not be pushed back into the original version, but - of course - the reference shall be there.
+I want to use clones, if my changes shall be pushed back to the origin. And I want to use branches in a project, if I start
+building a new feature.
