@@ -35,3 +35,8 @@ Q: How would you collaborate without using Git or GitHub? What would be easier, 
 
 I'd search for something similar. If I don't find that, we'd send us the updated files and document the changes made.
 We definitely would need a server space, so that every one of us would be sure to always look at the current version of the project.
+
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I need to think that through while having a shower.
