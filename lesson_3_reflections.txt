@@ -3,3 +3,8 @@ Q:When would you want to use a remote repository rather than keeping all your wo
 I would want to use a remote repository if I work collaboratively with other people on a project.
 But even for my own project this would make sense, as I currently work on two computers, desktop-PC
 and laptop. With GitHub I could start using the PCs in the office.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I want full control over the state of the program I am working on. If Git automatically pulls changes, it might happen, that
+the files on my computer change, though I don't want that.
