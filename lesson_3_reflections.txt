@@ -20,3 +20,12 @@ I would want to fork a project, if I want that project to the starting-point for
 not be pushed back into the original version, but - of course - the reference shall be there.
 I want to use clones, if my changes shall be pushed back to the origin. And I want to use branches in a project, if I start
 building a new feature.
+
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+X -> Y (origin/master) -> Z (master)
+X -> Y -> Z (master)
+fetch.
+This way fetch knows where to hook in new changes, that have been made by other collaborators or from other machines,
+and, in case of conflicts, leave my current files alone. I can solve conflicts now, but I don't have to.
